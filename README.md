@@ -11,32 +11,54 @@
 
 This repository documents my journey through the **TryHackMe SOC Level 1 Learning Path** — a structured, hands-on path that trains aspiring SOC analysts in real-world defensive security skills through practical labs and simulated investigations.
 
-The path was fully revamped in November 2025 to focus on the skills hiring managers actually look for — alert triage, SIEM, EDR, threat intelligence, and incident response.
+The path was fully revamped in 2025 to focus on the skills hiring managers actually look for — alert triage, SIEM, EDR, threat intelligence, and incident response.
 
 ---
 
 ## 🗺️ Path Overview
 
-The SOC Level 1 path consists of **14 modules** that flow logically from foundational concepts to advanced investigations — mirroring the real growth of a junior SOC analyst on the job.
+| # | Module | Rooms | Status |
+|---|--------|-------|--------|
+| 01 | Blue Team Introduction | Junior Security Analyst Intro, SOC Role in Blue Team, Humans as Attack Vectors, Systems as Attack Vectors | ✅ |
+| 02 | SOC Team Internals | SOC L1 Alert Triage, Alert Reporting, SOC Workbooks & Lookups, SOC Metrics & Objectives | ✅ |
+| 03 | Core SOC Solutions | Intro to EDR, Intro to SIEM, Splunk: The Basics, Elastic Stack: The Basics, Intro to SOAR | ✅ |
+| 04 | Cyber Defence Frameworks | Pyramid of Pain, Cyber Kill Chain, Unified Kill Chain, MITRE, Summit, Eviction | ✅ |
+| 05 | Phishing Analysis | Phishing Fundamentals, Phishing Emails in Action, Phishing Analysis Tools, Phishing Prevention, The Greenholt Phish, Snapped Phish-ing Line | ✅ |
+| 06 | Network Traffic Analysis | Network Traffic Basics, Wireshark: The Basics, Packet Operations, Traffic Analysis, NetworkMiner | ✅ |
+| 07 | Network Security Monitoring | Network Security Essentials, Network Discovery Detection, Data Exfiltration Detection, MitM Detection, IDS Fundamentals, Snort | ✅ |
+| 08 | Web Security Monitoring | Web Security Essentials, Detecting Web Attacks, Detecting Web Shells, Detecting Web DDoS, Upload and Conquer | ✅ |
+| 09 | Windows Security Monitoring | Windows Logging for SOC, Windows Threat Detection 1, 2 & 3 | ✅ |
+| 10 | Linux Security Monitoring | Linux Logging for SOC, Linux Threat Detection 1, 2 & 3 | ✅ |
+| 11 | Malware Concepts for SOC | Malware Classification, Intro to Malware Analysis, Living off the Land Attacks, Shadow Trace | ✅ |
+| 12 | **Threat Analysis Tools** | Intro to Cyber Threat Intel, File & Hash Threat Intel, IP & Domain Threat Intel, Invite Only | ✅ |
+| 13 | SIEM Triage for SOC | Log Analysis with SIEM, Alert Triage with Splunk, Alert Triage with Elastic, ItsyBitsy, Benign | 🔜 |
+| 14 | Capstone Challenges | Tempest, Boogeyman 1, 2 & 3, Hidden Hooks, Open Door | 🔜 |
 
-| # | Module | Focus Area | Status |
-|---|--------|------------|--------|
-| 01 | Blue Team Introduction | SOC roles, structures, and operations | |
-| 02 | Cyber Defence Frameworks | MITRE ATT&CK, Pyramid of Pain, Cyber Kill Chain | |
-| 03 | Phishing Analysis | Email analysis, phishing attachments, campaign detection | |
-| 04 | Network Traffic Analysis | Wireshark, packet capture, ARP/ICMP/Nmap attack detection | |
-| 05 | Network Security Monitoring | Perimeter monitoring, MitM detection, data exfiltration | |
-| 06 | Web Security Monitoring | Web attacks, WAF, CDN, SIEM-based detection | |
-| 07 | Windows Security Monitoring | Event Viewer, Windows logs, MITRE technique mapping | |
-| 08 | Linux Security Monitoring | Linux logs, reverse shells, malware upload detection | |
-| 09 | Malware Concepts for SOC | Malware types, LoTL techniques, malware classification | |
-| 10 | Core SOC Solutions | EDR, SIEM (Splunk & Elastic Stack), SOAR | |
-| 11 | **Threat Analysis Tools** ✅ | Threat intel, IOC analysis, file/hash/IP/domain investigation | 🏅 Lookup Champion |
-| 12 | SIEM Triage for SOC | Alert investigation, log correlation, incident timeline | |
-| 13 | SOC Team Internals | Alert triage, reporting, escalation procedures | |
-| 14 | Capstone Challenges | End-to-end incident investigations | |
+> ✅ Completed &nbsp;|&nbsp; 🔜 Upcoming
 
-> ✅ = Completed &nbsp;|&nbsp; 🏅 = Badge Earned
+---
+
+## 🏅 Badges Earned
+
+These are the badges I earned throughout the SOC Level 1 path:
+
+| Badge | Description | Module |
+|-------|-------------|--------|
+| 🔵 First Step into SOC | Explored emerging threats and SOC response | Blue Team Introduction |
+| 📚 SOC Apprentice | Explored how a SOC team operates from inside | SOC Team Internals |
+| 🛡️ Defensive Toolsmith | Mastered essential SOC tools for detection | Core SOC Solutions |
+| ⚔️ Skilled Navigator | Finished the Eviction challenge | Cyber Defence Frameworks |
+| 📧 Phish Hunter | Completed the Phishing Analysis room series | Phishing Analysis |
+| 🦈 Wireshark | Competent with Wireshark & Packet Analysis | Network Traffic Analysis |
+| 🔬 Network Hog | Sniffed out malicious traffic in the network | Network Security Monitoring |
+| 🌐 Web Defender | Learned to detect common attacks on web apps | Web Security Monitoring |
+| 🪟 Windows Guardian | Investigated and defended Windows against threats | Windows Security Monitoring |
+| 🐧 Linux Guardian | Stood guard against emerging Linux threats | Linux Security Monitoring |
+| 🦠 Malware Explorer | Identified and classified different types of malware | Malware Concepts for SOC |
+| 🔎 Lookup Champion | Investigated the attack through TI lookups | Threat Analysis Tools |
+| 🎯 First Alert Closed | Closing your first alert | SOC Team Internals |
+| 🎬 First Scenario Completed | Completing your first scenario | SOC Team Internals |
+| 💯 100% True Positive Rate | Achieving 100% true positive rate in a scenario | SOC Team Internals |
 
 ---
 
@@ -44,29 +66,26 @@ The SOC Level 1 path consists of **14 modules** that flow logically from foundat
 
 ### What I Have Learned & Practised
 - Monitored and investigated security alerts in simulated SOC environments
-- Triaged, classified, and escalated incidents following real SOC workflows
-- Detected and analysed network, web, Windows, and Linux-based attacks
-- Worked hands-on with SIEM tools (Splunk, Elastic Stack), EDR, and SOAR
-- Used threat intelligence tools to investigate and enrich IOCs
+- Triaged, classified, and escalated incidents following real SOC L1 workflows
+- Analysed phishing emails including headers, attachments, and sender infrastructure
+- Detected and investigated network attacks — ARP poisoning, MitM, data exfiltration, Nmap scans
+- Analysed web attacks including web shells, DDoS, and upload vulnerabilities
+- Detected Windows and Linux-based threats using event logs and system telemetry
+- Identified and classified malware types including ransomware, trojans, and LoTL techniques
+- Used threat intelligence tools to investigate and enrich IOCs (IPs, domains, file hashes)
+- Worked hands-on with SIEM tools — Splunk and Elastic Stack
 - Mapped attacker behaviour to MITRE ATT&CK techniques
-- Written incident reports and followed proper escalation and communication procedures
+- Applied frameworks: Cyber Kill Chain, Unified Kill Chain, Pyramid of Pain, Diamond Model
 
 ### Tools & Technologies I Have Used
 | Category | Tools |
 |----------|-------|
 | SIEM | Splunk, Elastic Stack |
-| Network Analysis | Wireshark |
-| Threat Intel | VirusTotal, MalwareBazaar, Hybrid Analysis, Shodan, Cisco Talos |
-| OSINT | WHOIS, DNSDumpster, MXToolbox, IPinfo, Wayback Machine, CT Logs |
-| Frameworks | MITRE ATT&CK, Cyber Kill Chain, Diamond Model, STIX/TAXII |
-
----
-
-## 🏅 Badges Earned
-
-| Badge | Module | Status |
-|-------|--------|--------|
-| 🔎 Lookup Champion | Threat Analysis Tools | ✅ Earned |
+| EDR / SOAR | EDR concepts, SOAR automation workflows |
+| Network Analysis | Wireshark, NetworkMiner, TShark, Snort |
+| Threat Intel | VirusTotal, MalwareBazaar, Hybrid Analysis, Shodan, Cisco Talos, IPinfo |
+| OSINT | WHOIS, DNSDumpster, MXToolbox, DNSChecker, Wayback Machine, CT Logs |
+| Frameworks | MITRE ATT&CK, Cyber Kill Chain, Unified Kill Chain, Pyramid of Pain, STIX/TAXII |
 
 ---
 
@@ -84,8 +103,10 @@ A SOC Level 1 analyst is the first line of defence in any organisation. Through 
 ## 🚀 Goals & Progress
 
 - [ ] Complete all 14 modules
-- [ ] Earn all available badges
-- [x] Document learnings through writeups and notes
+- [ ] Earn all remaining badges
+- [x] Completed Modules 1–12
+- [x] Earned 15 badges across the path so far
+- [x] Documented Threat Analysis Tools module with full writeups
 - [ ] Achieve TryHackMe SAL1 Certification
 - [ ] Land a Junior SOC Analyst / Blue Team role
 
@@ -95,7 +116,7 @@ A SOC Level 1 analyst is the first line of defence in any organisation. Through 
 
 - All writeups are for educational purposes and personal documentation
 - Task answers are included to support learning — always attempt rooms yourself first
-- Module 11 (Threat Analysis Tools) is fully documented with notes in its own folder
+- The Threat Analysis Tools module (Module 12) is fully documented with notes in its own folder
 
 ---
 
