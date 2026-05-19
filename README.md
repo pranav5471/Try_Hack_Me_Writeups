@@ -31,7 +31,7 @@ The path was fully revamped in 2025 to focus on the skills hiring managers actua
 | 10 | Linux Security Monitoring | Linux Logging for SOC, Linux Threat Detection 1, 2 & 3 | ✅ |
 | 11 | Malware Concepts for SOC | Malware Classification, Intro to Malware Analysis, Living off the Land Attacks, Shadow Trace | ✅ |
 | 12 | **Threat Analysis Tools** | Intro to Cyber Threat Intel, File & Hash Threat Intel, IP & Domain Threat Intel, Invite Only | ✅ |
-| 13 | SIEM Triage for SOC | Log Analysis with SIEM, Alert Triage with Splunk, Alert Triage with Elastic, ItsyBitsy, Benign | 🔜 |
+| 13 | SIEM Triage for SOC | Log Analysis with SIEM, Alert Triage with Splunk, Alert Triage with Elastic, ItsyBitsy, Benign | ✅ |
 | 14 | Capstone Challenges | Tempest, Boogeyman 1, 2 & 3, Hidden Hooks, Open Door | 🔜 |
 
 > ✅ Completed &nbsp;|&nbsp; 🔜 Upcoming
