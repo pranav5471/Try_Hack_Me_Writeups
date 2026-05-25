@@ -32,7 +32,7 @@ The path was fully revamped in 2025 to focus on the skills hiring managers actua
 | 11 | Malware Concepts for SOC | Malware Classification, Intro to Malware Analysis, Living off the Land Attacks, Shadow Trace | ✅ |
 | 12 | **Threat Analysis Tools** | Intro to Cyber Threat Intel, File & Hash Threat Intel, IP & Domain Threat Intel, Invite Only | ✅ |
 | 13 | SIEM Triage for SOC | Log Analysis with SIEM, Alert Triage with Splunk, Alert Triage with Elastic, ItsyBitsy, Benign | ✅ |
-| 14 | Capstone Challenges | Tempest, Boogeyman 1, 2 & 3, Hidden Hooks, Open Door | 🔜 |
+| 14 | Capstone Challenges | Tempest, Boogeyman 1, 2 & 3, Hidden Hooks, Open Door | ✅ |
 
 > ✅ Completed &nbsp;|&nbsp; 🔜 Upcoming
 
@@ -102,8 +102,8 @@ A SOC Level 1 analyst is the first line of defence in any organisation. Through 
 
 ## 🚀 Goals & Progress
 
-- [ ] Complete all 14 modules
-- [ ] Earn all remaining badges
+- [x] Complete all 14 modules
+- [x] Earn all remaining badges
 - [x] Completed Modules 1–12
 - [x] Earned 15 badges across the path so far
 - [x] Documented Threat Analysis Tools module with full writeups
